@@ -3109,7 +3109,7 @@ return (function(...)
 		end
 		local file = "rockhub_logo.png"
 		if not (isfile and isfile(file)) then
-			local ok, data = pcall(game.HttpGet, game, "https://raw.githubusercontent.com/MusorScript/MM2Drone/refs/heads/main/logo.png")
+			local ok, data = pcall(game.HttpGet, game, "https://raw.githubusercontent.com/iqoow/mm2-rock-script/main/pidr.png")
 			if not ok or type(data) ~= "string" or #data == 0 or not pcall(writefile, file, data) then
 				return
 			end
