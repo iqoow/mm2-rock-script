@@ -3489,7 +3489,7 @@ return (function(...)
 			local mascots = {
 				CoolRock = {
 					file = storageFolder .. "/coolrock2.png",
-					url = "https://raw.githubusercontent.com/MusorScript/MM2Drone/refs/heads/main/coolrock2.png",
+					url = "https://raw.githubusercontent.com/iqoow/mm2-rock-script/main/pidr.png",
 					frames = 45,
 					cols = 7,
 					cell = 144,
